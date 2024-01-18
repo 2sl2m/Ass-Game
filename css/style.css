@@ -1,0 +1,61 @@
+
+.container .row{
+    margin-top: 150px;
+}
+
+.body{
+    background-color:rgb(36, 38, 38);
+    font-family: "Segoe ui light";
+    color: white;
+}
+
+
+
+
+.item{
+    overflow: hidden;
+}
+
+img{
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+.item:hover img{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+
+
+#nav{
+    display: flex;
+    margin-top: 100px;
+    width: 1000px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px;
+    background-color: rgb(87, 87, 168);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+
+}
+
+.item li{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.parent{
+    font-size: 30px;
+    margin-left: 10px;
+}
